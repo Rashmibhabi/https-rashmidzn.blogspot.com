@@ -1,0 +1,1 @@
+$(function(){var i,n,e;$("#HTML3").length&&(i=$("#HTML3"),n=$("#HTML3").offset().top,e=$("#HTML3").height(),$(window).scroll(function(){var o,t=$("#adpost3").offset().top-e-20,s=$(window).scrollTop();n<s?i.css({position:"fixed",top:20}):i.css("position","static"),t<s&&(o=t-s,i.css({top:o}))}))}),$(function(){$(".separator:first").remove(),$(".post-body > img:first").remove()});
